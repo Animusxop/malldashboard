@@ -11,7 +11,7 @@ An automated campaign tracking and analytics dashboard for **Meesho Mall**, trac
 - **Brands & Campaigns Manager**: Interface to register new Brands and define Campaigns with target KPIs and budgets.
 - **👁️ External Viewer Report Mode**: Executive read-only mode for sharing reports with brand partners without edit options.
 
-## 🚀 Getting Started
+## 🚀 Getting Started & How to Run
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -22,8 +22,15 @@ pip install -r requirements.txt
 ```
 
 ### Running the App
-```bash
-streamlit run app.py
+Run the following command in your terminal / PowerShell:
+
+```powershell
+python -m streamlit run app.py
+```
+*or using the Python Launcher:*
+```powershell
+py -m streamlit run app.py
 ```
 
-Open your browser at `http://localhost:8501`.
+Open your web browser at:
+**`http://localhost:8501`**
